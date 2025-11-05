@@ -1,0 +1,100 @@
+---
+---
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+@import "bootstrap/bootstrap.scss";
+
+// Then add additional custom code here
+
+blockquote:not(.p-page-intro) {
+    border-left: 3px solid $blue;
+    padding-left: 1em;
+    color: var(--bs-secondary-color);
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { 
+    text-decoration: none; 
+    padding-left: 0.25em;
+    opacity: 0;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a,
+h5:hover a,
+h6:hover a { 
+    opacity: 100;
+}
+
+h1 { margin-top: 0.5em; }
+h2 { margin-top: 1.25em; }
+h3 { margin-top: 1em; }
+h4 { margin-top: 0.5em; }
+h5 { margin-top: 0.25em; }
+h6 { margin-top: 0.25em; }
+
+/** fix for sticky header w/ header links */
+//h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+    padding-top: 80px;
+    margin-top: -80px;
+    &::before {
+        display: block;
+        height: 0.5em;
+        content: "";
+    }
+}
+
+.p-man-header {
+    background-color: $blue;
+    color: $body-emphasis-color-dark;
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+    box-shadow: 0 .5rem 1rem #00000026, inset 0 -1px #ffffff26;
+    position: sticky;
+    top: 0;
+    opacity: 0.95;
+}
+
+.p-man-nav-container {
+    height: calc(100vh - 100px);
+    position: sticky;
+    overflow-y: auto;
+    top: 100px;
+    padding-right: 1em;
+}
+
+.p-man-nav-link {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.125rem;
+    color: var(--bs-body-color);
+    text-decoration: none;
+    display: inline-block !important;
+    border-radius: var(--bs-border-radius) !important;
+    vertical-align: baseline;
+}
+
+.p-man-nav-link:hover {
+    color: var(--bs-emphasis-color);
+    background-color: var(--bs-primary);
+}
+
+.p-page-intro {
+    @extend .blockquote;
+    font-weight: lighter;
+}
