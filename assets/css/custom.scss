@@ -9,8 +9,16 @@
 @import "bootstrap/bootstrap.scss";
 
 // Then add additional custom code here
+:root {
+    --p-man-green: #{$green};
+}
 
-blockquote:not(.p-page-intro) {
+.col-fixed {
+    width: 270px; /* Adjust the desired fixed width */
+    flex-shrink: 0; /* Prevent the column from shrinking below its fixed width */
+}
+
+blockquote:not(.p-man-page-intro) {
     border-left: 3px solid $blue;
     padding-left: 1em;
     color: var(--bs-secondary-color);
@@ -25,6 +33,9 @@ h6 a {
     text-decoration: none; 
     padding-left: 0.25em;
     opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 h1:hover a,
@@ -94,7 +105,7 @@ h6[id] {
     background-color: var(--bs-primary);
 }
 
-.p-page-intro {
+.p-man-page-intro {
     @extend .blockquote;
     font-weight: lighter;
 }

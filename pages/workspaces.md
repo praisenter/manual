@@ -10,7 +10,7 @@ relpath: ../
 
 # Workspaces
 > A _workspace_ is simply a folder on your computer where Praisenter will store all content that you import, create, and use.
-{: .p-page-intro}
+{: .p-man-page-intro}
 
 Workspaces represent an isolated collection of content.  For example, you can create two workspaces, one for your main service and a different one for youth services.  Having these two workspaces mean that the content (things like pictures, videos, bibles, etc.) are separated.
 
@@ -19,7 +19,7 @@ You must select a workspace before launching Praisenter.
 ## Creating workspaces[#](#creating-workspaces)
 You are prompted to create a workspace on your first run of Praisenter.  Praisenter will setup a few things to initialize your workspace, but these steps happen automatically.  Every time Praisenter is started, you are prompted to select the workspace to open.
 
-![Alt text]({{ page.relpath }}/assets/img/workspace-selection.png){: .rounded}
+![Alt text]({{ page.relpath }}assets/img/workspace-selection.png){: .rounded .img-fluid}
 
 - You can use the text box to select a previously selected workspace
 - You can use the text box to type in a path to a folder

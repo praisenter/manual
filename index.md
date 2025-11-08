@@ -10,7 +10,9 @@ date: 2025-11-03 09:48:58 -0500
 # Manual
 > Welcome to the manual where you can get more information about Praisenter, how it works, features, restrictions and more.
 Please note that the latest documentation is [available online](https://manual.praisenter.github.io).
-{: .p-page-intro}
+{: .p-man-page-intro}
+
+Where to go for more help?  The best way to get help is to post on the [discussion board](https://github.com/praisenter/praisenter/discussions).  If you've found a bug or are having technical difficulty you can [submit an issue](https://github.com/praisenter/praisenter/issues) to the project team.
 
 ## About[#](#about)
 Praisenter is a free application used to manage presentations with a focus on churches.  You can use Praisenter to display
@@ -41,11 +43,8 @@ Some features that would benefit from better hardware are video processing & dis
 ## Default Content[#](#default-content)
 Many competing softwares out there are packaged with default content: video backgrounds, pictures, bibles, song books, etc.  Praisenter comes with minimal default content (a few slide templates, a sample bible, and sample song lyrics).  There are a few reasons for this, but the primary reasons are:
 
-- Copyright law is a minefield and changes based on the juristiction.  A great example of this is the KJV bible which is Public Domain in the United States, but Copyrighted by the Crown in the United Kingdom.  Other content types like song lyrics, images, videos, and 
-so on have similar issues.
+- Copyright law is a minefield which changes based on the juristiction.  A great example of this is the KJV bible which is Public Domain in the United States, but Copyrighted by the Crown in the United Kingdom.  Other content types like song lyrics, images, videos, and so on have similar issues.
 
-- Download size and clutter is a real thing.  Our goal was to provide the minimum necessary content to get started with Praisenter and
-allow each user to import the content they need.  Videos, images/pictures, and bibles can take up significant amount of the application
-size and Praisenter is already a pretty large download (~500 MB).
+- Download size and clutter is a real thing.  Our goal was to provide the minimum necessary content to get started with Praisenter and allow each user to import the content they need.  Videos, images/pictures, and bibles can take up a significant amount of storage space and Praisenter is already a pretty large download (~500 MB).
 
-- With our limited amount of time, we chose to focus on application features rather than content.  There's a lot of free content out there that can be imported.  If you are looking for more professional content, you can find those resources as well.
+- With our limited amount of time, we're choosing to focus on application features rather than content.  There's a lot of free content out there that can be imported.  If you are looking for more professional content, you can find those resources as well.

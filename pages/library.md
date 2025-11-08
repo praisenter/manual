@@ -10,18 +10,18 @@ relpath: ../
 
 # Library
 > The _Library_ is the list of all content within a [workspace](workspaces.html)
-{: .p-page-intro}
+{: .p-man-page-intro}
 
 Access the library by using the left navigation.  Click on the stacked squares icon.  The library allows you to create, update, delete, organize all your assets.  That includes Bibles, Song Lyrics, Slides, pictures, videos, and so on.
 
 In the example below, we have a library with five items, three slide templates, one bible, and one song lyrics.  These items are automatically created when creating a new workspace and should be used for learning how to edit and maintain your content.
 
-![Library]({{ page.relpath }}/assets/img/library.png){: .rounded .img-fluid}
+![Library]({{ page.relpath }}assets/img/library.png){: .rounded .img-fluid}
 
 ## Searching, filtering, & sorting[#](#searching-filtering--sorting)
 As you collect more and more content, being able to find what you need becomes more important.  Use the library toolbar to search, filter, & sort your content.
 
-![Library searching, filtering, and sorting]({{ page.relpath }}/assets/img/library-search-filter-sort.png){: .rounded}
+![Library searching, filtering, and sorting]({{ page.relpath }}assets/img/library-search-filter-sort.png){: .rounded}
 
 - The `search name/tags` box allows you to search the name of items and their tags.
 - The `filter by` dropdown allows you to filter by the type of content.
@@ -38,7 +38,7 @@ You can select items using the mouse.  Once an item is selected you can perform 
 - `Rename` will allow you to rename the item.
 - `Export` will prompt you to export the item to a zip file.
 
-![Library select single item]({{ page.relpath }}/assets/img/library-select-item.png){: .rounded .img-fluid}
+![Library select single item]({{ page.relpath }}assets/img/library-select-item.png){: .rounded .img-fluid}
 
 ## Content preview[#](#content-preview)
 When selecting an item, a preview of the item is shown on the right side of the library.  The preview will be different based on the content type.  For some types, you can only see basic information, but for others you may have additional options.  All content will show the following details:
@@ -49,6 +49,8 @@ When selecting an item, a preview of the item is shown on the right side of the 
 
 > Some file types like video have the ability to preview them.  Be careful when previewing content with audio if you have your computer audio output on.
 
+![Library video preview]({{ page.relpath }}assets/img/library-preview-video.png){: .rounded .img-fluid}
+
 ## Selecting multiple items[#](#selecting-multiple-items)
 You can select items using the mouse.  Once an item is selected, you can hold down `Shift` to select multiple items in order or `Ctrl` / `Command` to select individual items.  You can also use the `Left Arrow` and `Right Arrow` keys while holding `Shift` to select multiple items.
 
@@ -58,11 +60,11 @@ When multiple items are selected you can perform some of the same actions listed
 - `Copy` will copy the items to the clipboard.
 - `Export` will prompt you to export the items to a zip file.
 
-![Library select multple items]({{ page.relpath }}/assets/img/library-select-items.png){: .rounded .img-fluid}
+![Library select multple items]({{ page.relpath }}assets/img/library-select-items.png){: .rounded .img-fluid}
 
 Another way to select multiple items is to use the mouse and click + drag.
 
-![Library select multple items with mouse click + drag]({{ page.relpath }}/assets/img/library-select-drag.png){: .rounded .img-fluid}
+![Library select multple items with mouse click + drag]({{ page.relpath }}assets/img/library-select-drag.png){: .rounded .img-fluid}
 
 ## Duplicate / copy[#](#duplicate--copy)
 After selecting item(s) (refer to the [Selecting an item](#selecting-an-item) and [Selecting multiple items](#selecting-multiple-items) sections) you can Duplicate or Copy the item(s).
@@ -80,11 +82,13 @@ After selecting item(s) (refer to the [Selecting an item](#selecting-an-item) an
 
 `Rename` is only available when selecting a single item.  When clicked you will be prompted to supply the new name for the item.
 
-![Library rename item]({{ page.relpath }}/assets/img/library-rename-prompt.png){: .rounded .img-fluid}
+> NOTE: You can also rename the item in the editor if it's a Bible, Song Lyrics, or Slide.
+
+![Library rename item]({{ page.relpath }}assets/img/library-rename-prompt.png){: .rounded .img-fluid}
 
 `Delete` will delete the items selected.  You will get an "Are you sure?" notification first.  If you choose to proceed, the items are deleted _permanently_.  There is no way to recover deleted items at this time.
 
-![Library delete confirmation]({{ page.relpath }}/assets/img/library-delete-prompt.png){: .rounded .img-fluid}
+![Library delete confirmation]({{ page.relpath }}assets/img/library-delete-prompt.png){: .rounded .img-fluid}
 
 ## Importing content[#](#importing-content)
 Since Praisenter comes with minimal content, it's a natural next step to need to import content.  Importing content is easy - just drag the item you want imported onto the Praisenter window.  Select multiple items and drag-n-drop them into Praisenter to import multiple files at once.  Finally, you can also import `.zip` files containing any combination of the supported formats to import multiple items.
@@ -93,7 +97,7 @@ If you have Praisenter full screen and don't want to drag-n-drop, you can use th
 
 > _What happens to the original files after import?_ Nothing.  The original files are left as-is.  When you import, the files are _copied_ to the Praisenter workspace, so you are free to move, delete, rename, etc. those original files.
 
-![Library drag n drop import]({{ page.relpath }}/assets/img/library-import-dnd.png){: .rounded .img-fluid}
+![Library drag n drop import]({{ page.relpath }}assets/img/library-import-dnd.png){: .rounded .img-fluid}
 
 ## Supported import formats[#](#supported-import-formats)
 Praisenter supports a large number of formats.  Don't worry if you don't see the format you need, you have some other options when it comes to Bibles and Song lyrics.
@@ -147,7 +151,7 @@ Finally, choose the export file name and location.
 
 > _What happens to the items after export?_ Nothing.  The items are left as-is.  The exported file(s) are copies of the items in the workspace - you can rename, delete, move, etc. the file(s) without impacting the items in the workspace.
 
-![Library export choose formats]({{ page.relpath }}/assets/img/library-export-formats.png){: .rounded .img-fluid}
+![Library export choose formats]({{ page.relpath }}assets/img/library-export-formats.png){: .rounded .img-fluid}
 
 ## Supported export formats[#](#supported-export-formats)
 Praisenter supports a few different export formats in addition to it's native format.
