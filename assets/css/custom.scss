@@ -13,9 +13,25 @@
     --p-man-green: #{$green};
 }
 
-.col-fixed {
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 3em;
+}
+
+.left-nav {
     width: 270px; /* Adjust the desired fixed width */
     flex-shrink: 0; /* Prevent the column from shrinking below its fixed width */
+}
+
+.main-content {
+    flex-grow: 1;
+    padding-left: 2em;
+    /* This is here to fix overflow on pre tags */
+    min-width: 0;
 }
 
 blockquote:not(.p-man-page-intro) {
@@ -55,7 +71,7 @@ h5 { margin-top: 0.25em; }
 h6 { margin-top: 0.25em; }
 
 /** fix for sticky header w/ header links */
-//h1[id],
+h1[id],
 h2[id],
 h3[id],
 h4[id],
@@ -108,4 +124,6 @@ h6[id] {
 .p-man-page-intro {
     @extend .blockquote;
     font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }

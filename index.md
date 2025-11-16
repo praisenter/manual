@@ -48,3 +48,37 @@ Many competing softwares out there are packaged with default content: video back
 - Download size and clutter is a real thing.  Our goal was to provide the minimum necessary content to get started with Praisenter and allow each user to import the content they need.  Videos, images/pictures, and bibles can take up a significant amount of storage space and Praisenter is already a pretty large download (~500 MB).
 
 - With our limited amount of time, we're choosing to focus on application features rather than content.  There's a lot of free content out there that can be imported.  If you are looking for more professional content, you can find those resources as well.
+
+{% include workspaces.md %}
+
+---
+
+{% include library.md %}
+
+---
+
+{% include editing.md %}
+
+---
+
+{% include bibles.md %}
+
+---
+
+{% include songs.md %}
+
+---
+
+{% include slides.md %}
+
+---
+
+{% include slide-components.md %}
+
+---
+
+{% include displays.md %}
+
+---
+
+{% include presenting.md %}
