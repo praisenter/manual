@@ -121,6 +121,11 @@ h6[id] {
     background-color: var(--bs-primary);
 }
 
+.p-man-nav-link-selected {
+    color: var(--bs-emphasis-color);
+    background-color: $body-secondary-bg-dark;
+}
+
 .p-man-page-intro {
     @extend .blockquote;
     font-weight: lighter;

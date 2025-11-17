@@ -21,14 +21,14 @@ What's interesting is that each song in Praisenter can have multiple Lyrics.  Th
 
 > **NOTE**: As mentioned earlier, since the song above is structured this way, we would be able to show both the English Verse 1 _and_ the Spanish Verse 1 on a single slide during a presentation.
 
-A song is edited using a tree-like view (see the example above).  You can expand and collapse lyrics, authors, and song books.  Clicking on each item in the view will allow you to edit it in the [Side Pane]({{ page.relpath }}index.html#side-pane) on the right.  As you click on each item in the view, toolbar and menu options will enable and disable.  For example, if you select a Lyric item, you can create a Section, Author, and Song Book.  However, if you click on the Song, you can only create a Lyric.
+A song is edited using a tree-like view (see the example above).  You can expand and collapse lyrics, authors, and song books.  Clicking on each item in the view will allow you to edit it in the [Side Pane]({{ page.relpath }}{{ page.editing_page }}#side-pane) on the right.  As you click on each item in the view, toolbar and menu options will enable and disable.  For example, if you select a Lyric item, you can create a Section, Author, and Song Book.  However, if you click on the Song, you can only create a Lyric.
 
 > **NOTE**: You can also copy, cut, & paste lyrics, sections, authors, and song books within a single song or between songs.
 
 ## Bulk edit[#](#bulk-edit)
 Editing a Song by selecting and editing each item can be very tedious.  With that in mind Praisenter allows you to bulk edit Lyrics.  When bulk editing, the editor switches to a text view.  It's very important that you follow these guidelines when bulk editing to make sure that Praisenter can interpret your changes correctly.
 
-You can trigger bulk editing by selecting a Lyric and using the `Edit` -> `Bulk Edit` menu, the context menu, or by clicking the `Bulk Edit` button in the [Side Pane]({{ page.relpath }}index.html#side-pane).
+You can trigger bulk editing by selecting a Lyric and using the `Edit` -> `Bulk Edit` menu, the context menu, or by clicking the `Bulk Edit` button in the [Side Pane]({{ page.relpath }}{{ page.editing_page }}#side-pane).
 
 ![Song lyric bulk edit]({{ page.relpath }}assets/img/songs-bulk-edit.png){: .rounded .img-fluid}
 
@@ -100,7 +100,7 @@ At times you may have sections that are out of order and reordering them manuall
 
 - Start bulk editing and copy/paste around as needed
 - Click & drag items around with the mouse
-- Copy, cut, & paste items with the mouse & [hotkeys]({{ page.relpath }}index.html#hotkeys)
+- Copy, cut, & paste items with the mouse & [hotkeys]({{ page.relpath }}{{ page.editing_page }}#hotkeys)
 
 ## PDF import[#](#pdf-import)
 A feature specific to Song editing is PDF Import.  This feature only shows up during bulk editing.  You can find a button for it in the bottom right corner of the editor.  Praisenter will load the PDF, read the text from it, and place it into the bulk editor.

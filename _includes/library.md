@@ -67,7 +67,8 @@ After selecting item(s) (refer to the [Selecting an item](#selecting-an-item) an
 - If you paste into Praisenter, the items will be copied in the same way `Duplicate` works
 - If you selected _one_ image/picture and you paste into a program that accepts image/picture content, the image/picture will be pasted
 
-## Rename / Delete[#](#rename--delete)
+## Rename / Delete[#](#lib-rename-delete)
+{: #lib-rename-delete}
 After selecting item(s) (refer to the [Selecting an item](#selecting-an-item) and [Selecting multiple items](#selecting-multiple-items) sections) you can Rename or Delete the item(s).
 
 `Rename` is only available when selecting a single item.  When clicked you will be prompted to supply the new name for the item.
@@ -81,13 +82,13 @@ After selecting item(s) (refer to the [Selecting an item](#selecting-an-item) an
 ![Library delete confirmation]({{ page.relpath }}assets/img/library-delete-prompt.png){: .rounded .img-fluid}
 
 ## Create Slide[#](#create-slide)
-A common ask is to quickly show a picture, image, or video in the presentation.  Praisenter requires the content to be placed on a [slide]({{ page.relpath }}index.html#slide-basics) before it can be presented.  To do this quickly, you can use the `+ Create Slide` context menu option to create a slide with the media on it, where you can save it, and then present it - just three steps.
+A common ask is to quickly show a picture, image, or video in the presentation.  Praisenter requires the content to be placed on a [slide]({{ page.relpath }}{{ page.slides_page }}#slide-basics) before it can be presented.  To do this quickly, you can use the `+ Create Slide` context menu option to create a slide with the media on it, where you can save it, and then present it - just three steps.
 
 By default this feature will do the following:
 - Create a new slide sized for your primary screen/output
 - Set the slide name to "Untitled _the item name_"
 - Set the slide background to black
-- Add a [Media Component]({{ page.relpath }}index.html#media-component) to the slide with the selected item
+- Add a [Media Component]({{ page.relpath }}{{ page.slidecomponents_page }}#media-component) to the slide with the selected item
 - Size the component to be full screen
 - Mark the media component to Keep aspect ratio
 

@@ -51,7 +51,7 @@ When using the `File` -> `Save as...` option, Praisenter will prompt you for a n
 When editing an item, you can copy, cut, and paste content. For example, imagine you are entering Song Lyrics and verse 1 and verse 2 are nearly identical - don't recreate verse 2 from scratch - copy and paste verse 1 and then modify the copy.  Another example is when you are editing multiple slides and you want some elements from Slide 1 on Slide 2, just select the elements and copy & paste them to Slide 2 - no need to recreate them.
 
 ## Rename / delete[#](#rename--delete)
-As mentioned in [Rename / delete]({{ page.relpath }}index.html#rename--delete), you have the ability to rename items in the editor from the right Side Pane.
+As mentioned in [Rename / delete]({{ page.relpath }}{{ page.library_page }}#lib-rename-delete), you have the ability to rename items in the editor from the right Side Pane.
 
 Delete, however, works differently.  The Delete action now works on the element level instead of at the item level.  What this means is that if you use the <kbd>Delete</kbd> key or menu option, it will delete the selected element.  For example, if you are editing a Slide and have an image selected, the Delete action will delete that element, not the slide itself.
 

@@ -5,7 +5,20 @@
 layout: default
 title: Bibles
 date: 2025-11-03 09:48:58 -0500
-relpath: ../
+
+relpath: /
+
+home_page: index.html
+bibles_page: pages/bibles.html
+displays_page: pages/displays.html
+editing_page: pages/editing.html
+library_page: pages/library.html
+presenting_page: pages/presenting.html
+slidecomponents_page: pages/slide-components.html
+slides_page: pages/slides.html
+songs_page: pages/songs.html
+workspaces_page: pages/workspaces.html
+miscellaneous_page: pages/miscellaneous.html
 ---
 
 {% include bibles.md %}

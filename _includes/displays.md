@@ -30,7 +30,7 @@ The _display controller_ is the set of buttons, options, and features that allow
 - `(-1920,0)` - The display is positioned at `x` = `-1920` and `y` = `0`
 - `1920x1080` - The display has resolution of `width` = `1920` and `height` = `1080`
 
-There's a lot features on the display controller, but don't get too overwhelmed, we'll be covering all of it in the [Presenting]({{ page.relpath }}index.html#presenting) section of the manual.  For now, let's focs on adding, hiding, renaming, and other display management features.
+There's a lot features on the display controller, but don't get too overwhelmed, we'll be covering all of it in the [Presenting]({{ page.relpath }}{{ page.presenting_page }}#presenting) section of the manual.  For now, let's focs on adding, hiding, renaming, and other display management features.
 
 > **NOTE**: Praisenter monitors your systems' display configuration and will react to changes.  When it reacts, it will clear anything being presented on that display.
 

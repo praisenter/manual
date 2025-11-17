@@ -40,7 +40,7 @@ Presenting Bible verses is performed using the `Bible` tab in the _display contr
 
 ![presenting bibles tab]({{ page.relpath }}assets/img/present-bible-verses-tab.png){: .rounded .img-fluid}
 
-Presenting Bible verses requires you to select a slide template first (remember a slide template is just a slide with [_placeholders_]({{ page.relpath }}index.html#placeholder-component)).
+Presenting Bible verses requires you to select a slide template first (remember a slide template is just a slide with [_placeholders_]({{ page.relpath }}{{ page.slidecomponents_page }}#placeholder-component)).
 
 ![presenting bibles select template]({{ page.relpath }}assets/img/present-bible-verses-template.png){: .rounded .img-fluid}
 
@@ -65,7 +65,7 @@ Presenting song lyrics is performed on the `Song Lyrics` tab in the _display con
 
 ![presenting song lyrics tab]({{ page.relpath }}assets/img/present-song-lyrics-tab.png){: .rounded .img-fluid}
 
-Presenting song lyrics requires you to select a slide template first (remember, a slide template is just a slide with [_placeholders_]({{ page.relpath }}index.html#placeholder-component)).
+Presenting song lyrics requires you to select a slide template first (remember, a slide template is just a slide with [_placeholders_]({{ page.relpath }}{{ page.slidecomponents_page }}#placeholder-component)).
 
 ![presenting song lyrics template]({{ page.relpath }}assets/img/present-song-lyrics-template.png){: .rounded .img-fluid}
 
@@ -92,7 +92,7 @@ Finally, at the bottom are the song comments.  Comments that are particularly us
 ## Presenting slides[#](#presenting-slides)
 Presenting slides is performed on the `Slides` tab in the _display controller_.
 
-> **NOTE**: Only slides without [_placeholders_]({{ page.relpath }}index.html#placeholder-component) will be shown here.
+> **NOTE**: Only slides without [_placeholders_]({{ page.relpath }}{{ page.slidecomponents_page }}#placeholder-component) will be shown here.
 
 ![presenting slides tab]({{ page.relpath }}assets/img/present-slides-tab.png){: .rounded .img-fluid}
 
@@ -113,7 +113,7 @@ Notifications are intended to be quick alerts that are overlayed on top of whate
 
 Next, select the notification slide template to use.
 
-> **NOTE**: The template chosen should have a [_placeholder_]({{ page.relpath }}index.html#placeholder-component) component configured with `Type` = `Text` and `Variant` = `Primary`.
+> **NOTE**: The template chosen should have a [_placeholder_]({{ page.relpath }}{{ page.slidecomponents_page }}#placeholder-component) component configured with `Type` = `Text` and `Variant` = `Primary`.
 
 ![presenting notifications template]({{ page.relpath }}assets/img/present-notifications-template.png){: .rounded .img-fluid}
 
@@ -146,7 +146,7 @@ As you are adding slides to the queue, you may find you added them in the wrong 
 
 You can remove slides from the queue by using the <kbd>Delete</kbd> key, the context menu `Delete` option, or the `Remove Selected` and `Remove All` buttons.
 
-If you want to duplicate a slide, you can use the copy and paste [hotkeys]({{ page.relpath }}index.html#hotkeys), the context menu `Copy` and `Paste` options, or hold down the <kbd>Ctrl</kbd> or <kbd>Command</kbd> key while dragging a slide.  What's really cool is that you can copy, paste and move slides _between_ display controllers.
+If you want to duplicate a slide, you can use the copy and paste [hotkeys]({{ page.relpath }}{{ page.editing_page }}#hotkeys), the context menu `Copy` and `Paste` options, or hold down the <kbd>Ctrl</kbd> or <kbd>Command</kbd> key while dragging a slide.  What's really cool is that you can copy, paste and move slides _between_ display controllers.
 
 ![presenting queue move between controllers]({{ page.relpath }}assets/img/present-queue-move-controller.png){: .rounded .img-fluid}
 

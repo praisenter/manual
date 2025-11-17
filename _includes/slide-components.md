@@ -2,12 +2,12 @@
 > Slides are made up of the slide itself and it's _slide components_.  Adding components to your slides is how you add media, text, and other content.
 {: .p-man-page-intro}
 
-Now that you've reviewed the [basics]({{ page.relpath }}index.html#slide-basics), we will introduce each component type available in Praisenter.  Then we'll cover how to move, resize, and layer them.
+Now that you've reviewed the [basics]({{ page.relpath }}{{ page.slides_page }}#slide-basics), we will introduce each component type available in Praisenter.  Then we'll cover how to move, resize, and layer them.
 
 ## Text component[#](#text-component)
-The text component is used to put static text on a slide and style that text.  You have all the options described in [Slide basics]({{ page.relpath }}index.html#slide-basics) to configure the font, color, borders, backgrounds and more.
+The text component is used to put static text on a slide and style that text.  You have all the options described in [Slide basics]({{ page.relpath }}{{ page.slides_page }}#slide-basics) to configure the font, color, borders, backgrounds and more.
 
-To edit the text itself, you can find that in the [Side Pane]({{ page.relpath }}index.html#side-pane) on the right.
+To edit the text itself, you can find that in the [Side Pane]({{ page.relpath }}{{ page.editing_page }}#side-pane) on the right.
 
 ![Slides text component]({{ page.relpath }}assets/img/slides-text-component.png){: .rounded .img-fluid}
 
@@ -152,7 +152,7 @@ Another way to add a media component is to drag-n-drop a file from your computer
 
 > **NOTE**: When you drag-n-drop a file onto the slide it could take some time before the media component shows up on the slide - Praisenter has to process and optimize some media files like Video and Audio to ensure they can be played correctly.  Just be patient.
 
-As described in [Slide basics - Media]({{ page.relpath }}index.html#media), depending on the type of media you add, you can adjust things like scaling, whether mute audio, color adjustments, and more.
+As described in [Slide basics - Media]({{ page.relpath }}{{ page.slides_page }}#media), depending on the type of media you add, you can adjust things like scaling, whether mute audio, color adjustments, and more.
 
 ## Moving components[#](#moving-components)
 Once you add components to the slide, you'll probably want to move them around.  To move a component around, just hover the mouse over the component you want to move and wait for the mouse cursor to change to the Move icon.  Then, click and hold the mouse button while moving the mouse.  Release the mouse button when you are finished moving the component.

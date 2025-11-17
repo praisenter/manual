@@ -19,14 +19,14 @@ Each Bible should represent one _language_ or _translation_.  Doing so will allo
 
 ![Bible, book, chapter, verse structure]({{ page.relpath }}assets/img/bibles-structure.png){: .rounded .img-fluid}
 
-The Bible is edited using a tree-like view (see the example above).  You can expand and collapse books and chapters to help find what you are looking for.  Clicking on each item in the view will allow you to edit it in the [Side Pane]({{ page.relpath }}index.html#side-pane) on the right.  As you click on each item in the view, toolbar and menu options will enable and disable.  For example, if you select a Chapter item, you can create a verse or a Chapter, but not a Book.  However, if you click on a book or the bible item, you _can_ create a book.
+The Bible is edited using a tree-like view (see the example above).  You can expand and collapse books and chapters to help find what you are looking for.  Clicking on each item in the view will allow you to edit it in the [Side Pane]({{ page.relpath }}{{ page.editing_page }}#side-pane) on the right.  As you click on each item in the view, toolbar and menu options will enable and disable.  For example, if you select a Chapter item, you can create a verse or a Chapter, but not a Book.  However, if you click on a book or the bible item, you _can_ create a book.
 
 > **NOTE**: You can also copy, cut, & paste books, chapters, and verses within a single bible or between bibles.
 
 ## Bulk edit[#](#bulk-edit)
 Editing a Bible by selecting and editing each item can be very tedious.  With that in mind Praisenter allows you to bulk edit Books and Chapters.  When bulk editing, the editor switches to a text view.  It's very important that you follow these guidelines when bulk editing to make sure that Praisenter can interpret your changes correctly.
 
-You can trigger bulk editing by using the `Edit` -> `Bulk Edit` menu, the context menu, or by clicking the `Bulk Edit` button in the [Side Pane]({{ page.relpath }}index.html#side-pane).
+You can trigger bulk editing by using the `Edit` -> `Bulk Edit` menu, the context menu, or by clicking the `Bulk Edit` button in the [Side Pane]({{ page.relpath }}{{ page.editing_page }}#side-pane).
 
 ![Bible book bulk edit]({{ page.relpath }}assets/img/bibles-bulk-edit.png){: .rounded .img-fluid}
 
@@ -120,7 +120,7 @@ At times you may have items that are out of order and reordering them manually c
 
 - Start bulk editing and copy/paste around as needed
 - Click & drag items around with the mouse
-- Copy, cut, & paste items with the mouse & [hotkeys]({{ page.relpath }}index.html#hotkeys)
+- Copy, cut, & paste items with the mouse & [hotkeys]({{ page.relpath }}{{ page.editing_page }}#hotkeys)
 - Use the `Sort by Number` menu item (see below)
 
 ## Sort by number[#](#sort-by-number)
