@@ -7,6 +7,8 @@ To get started, confirm that your displays are configured correctly on your syst
 - [Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html.en) - set your display to "Join Displays"
 - [MacOS](https://support.apple.com/guide/mac-help/connect-an-external-display-mchl7c7ebe08/mac) - set your display to "Extend"
 
+> **NOTE**: On MacOS you'll also want to turn off "Displays have separate Spaces" system setting to remove the menu bar from the additional screen.
+
 Provided your system is configured properly, display setup in Praisenter is handled from the Present tab on the left navigation.  It's the first place you see after selecting a workspace when starting Praisenter.  On the Present tab, you can add and remove displays, name them, and more.  To better understand displays setup in Praisenter, consider the following example:
 
 ![multi-monitor setup]({{ page.relpath }}assets/img/multi-monitor-setup.png){: .rounded .img-fluid}

@@ -9,11 +9,10 @@ Workspaces keep your content separated and organized - for example, you might ha
 ## Creating workspaces[#](#creating-workspaces)
 On start up, Praisenter will always ask you to select a worksapce.  When selecting a new workspace, Praisenter will setup a few things to ensure the workspace is ready for use (these steps happen in the background).  There are a few ways to pick a workspace:
 
-- You can use the text box to select a previously selected workspace
-- You can use the text box to type in a path to a folder
+- You can use the drop down to select a previously selected workspace
 - You can use the folder icon to select folder
 
-![Alt text]({{ page.relpath }}assets/img/workspace-selection.png){: .rounded .img-fluid}
+![workspace selection]({{ page.relpath }}assets/img/workspace-selection.png){: .rounded .img-fluid}
 
 You'll receive an error if you choose a folder with contents unless Praisenter detects it as an existing workspace. Once you have selected the workspace, click the `Launch` button to continue.
 
@@ -29,15 +28,15 @@ When you switch to a different workspace, the current workspace is closed. Any u
 You can also create a new workspace from the `File` -> `Switch Workspace` menu. Just like switching workspaces, make sure any unsaved documents are saved or discarded and that any content you are presenting is cleared before creating a new workspace.
 
 ## Removing workspaces[#](#removing-workspaces)
-As of version 3.1.7, there's no built-in way to remove a workspace. 
+Removing a workspace can be done from the workspace selection screen when the application starts.  From here you can use the trash can icon to remove the selected workspace.
 
-> **WARNING**: Removing workspaces requires manual file editing.
+> NOTE: Removing a workspace from here only removes it from the list of workspaces to choose from.  All files at that location are left as-is.  You'll need to manually delete/clean up that folder.
 
-However, if you want to clean up your workspaces you can delete the `workspaces.json` file stored in `C:\Users\your_user_name\.Praisenter3` on [Windows](https://apps.microsoft.com/detail/9phhwb94w800) or `/home/your_user_name/snap/praisenter/common/.Praisenter3` on Ubuntu (when using the [Snap](https://snapcraft.io/praisenter)) or `/home/your_user_name/.Praisenter3` on Ubuntu (when manually installing the `.DEB`).  This will clear the list of previously selected workspaces.  Just select the folder again to open an existing workspace.
+![workspace selection]({{ page.relpath }}assets/img/workspace-selection.png){: .rounded .img-fluid}
 
-Alternatively, you can _edit_ the `workspaces.json` file and remove specific workspaces. You'll want to focus on the `workspaces` and the `lastSelectedWorkspace` properties.  You can delete the workspace folder at any time.
+A confirmation dialog will show to confirm that you want to remove the workspace:
 
-> **NOTE**: Removing a workspace using the methods above only removes them from the _workspace selector_. You must manually delete the workspace folder to clean up any content in that workspace.
+![workspace removal confirmation dialog]({{ page.relpath }}assets/img/workspace-selection-remove-confirm.png){: .rounded .img-fluid}
 
 ## Workspace upgrade[#](#workspace-upgrade)
 When selecing a workspace, Praisenter checks whether it's an _existing_ workspace or a new workspace.  If it's an existing workspace, Praisenter checks the _version_ of the workspace.  If the workspace was last open in an old version of Praisenter, then it will be upgraded to the latest version.  Upgrading a workspace is usually a quick activity, but there could be upgrades in the future that take a significant amount of time.

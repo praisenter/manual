@@ -136,6 +136,8 @@ You can queue as many slides as you need - but too many may make switching diffi
 
 > **NOTE**: Praisenter does not support auto-playing the slides in the queue. To advance through the queue, you must manually click on each slide and then click `Show`.
 
+> **NOTE**: Once a slide has been queued, you can use the context menu (right-click or control-click) to create a new slide from that queued slide.  This feature allows you to save the slide exactly as it is - with any templated text, size adjustments, etc.  A slide created this way is _not_ a template, but will retain any templated text.  This can be useful when you want to adjust a templated slide manually or use text from a song or Bible verse.
+
 If you add slides in the wrong order, you can reorder them by clicking and dragging slides into the desired sequence.  In the example below, slide 3 is being moved above slide 2.
 
 ![presenting queue reorder]({{ page.relpath }}assets/img/present-queue-reorder.png){: .rounded .img-fluid}

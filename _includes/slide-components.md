@@ -95,13 +95,21 @@ Here are a few examples of custom formats for the date/time `2025-11-08 11:40:25
 {: .table .w-auto}
 
 ## Countdown component[#](#countdown-component)
-The countdown component is a lot like the date/time component, but where the date/time component always shows the current date/time, the countdown component _counts down_ to a specific or relative date/time.
+The countdown component is a lot like the date/time component, but where the date/time component always shows the current date/time, the countdown component _counts down_ to a specific, relative date/time, or for a specified duration.
 
 ![Slides countdown component]({{ page.relpath }}assets/img/slides-countdown-component.png){: .rounded .img-fluid}
 
-The countdown component requires a _target_ date and time to countdown to.  This is great for upcoming events on a specific date.  Just enter the date of the event (you can set the time to 00:00:00 to stop the countdown on the day of) and whenever the slide is displayed, the component will show the time remaining until that date.  No need to adjust the coundown, restart it, or anything - it does it automatically!  By default, the countdown halts when it reaches the target date/time.  You can turn this behavior off using the `Stop at zero` setting.  If `Stop at zero` is disabled, the countdown will continue and will show negative values to indicate the target date/time has already passed.
+The countdown component has two modes of operation, target date/time or duration.  In target date/time mode, the countdown will show the time remaining from now until the given target date and time.  In duration mode, the countdown will start counting down as soon as the slide is presented and will stop after the given duration has ellapsed.
+
+In target date/time mode, a _target_ date and time is required.  This is great for upcoming events on a specific date.  Just enter the date of the event (you can set the time to 00:00:00 to stop the countdown on the day of the event) and whenever the slide is displayed, the component will show the time remaining until that date.  No need to adjust the coundown, restart it, or anything - it does it automatically!  By default, the countdown halts when it reaches the target date/time.  You can turn this behavior off using the `Stop at zero` setting.  If `Stop at zero` is disabled, the countdown will continue and will show negative values to indicate the target date/time has already passed.
 
 Another common use for a countdown is for a recurring event, like the beginning of a weekly service. To configure the countdown component for this purpose, toggle on the `Time only` setting and set the target time (the target date will be ignored).  Now the countdown component will countdown to the same time every time you show the slide.
+
+Finally, you might have a need to countdown a specific amount of time - like a five minute timer from now.  Unlike target date/time mode, duration mode only requires an amount of time to countdown.  The countdown will start as soon as the slide is shown. 
+
+> **NOTE**: In duration mode, the countdown will restart if you present the slide again.
+
+> **NOTE**: Duration mode only supports durations in the hours, minutes, and seconds range.  If you want to countdown days, use the target date/time mode.
 
 Like the date/time component, you can format the output of the countdown component with one of the present formats or with your own.  For example, imagine it's 2025-11-08 12:34 PM and you are counting down to 2025-11-14 4:00 PM:
 
@@ -156,6 +164,8 @@ As described in [Slide basics - Media]({{ page.relpath }}{{ page.slides_page }}#
 
 ## Moving components[#](#moving-components)
 To move a component around, hover the mouse over the component you want to move and wait for the mouse cursor to change to the move icon.  Then, click and hold the mouse button while moving the mouse.  Release the mouse button when you are finished moving the component.
+
+You can also use the arrow keys <kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, <kbd>&uarr;</kbd>, and <kbd>&darr;</kbd> to move the selected component.
 
 ## Sizing components[#](#sizing-components)
 When you have a component selected, small white blocks appear in the corners and mid-points of the component.  Those white blocks are the sizing control points.  As you hover over a sizing control, the cursor will change to indicate what type of sizing operation it performs.  To resize, click and hold the mouse button on a control point while moving the mouse.  Release the mouse button when you are finished.
