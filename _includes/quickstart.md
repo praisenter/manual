@@ -21,18 +21,24 @@ There are two way to install Praisenter: Download from the store or install manu
 For **Windows**:
 
 <a href="https://apps.microsoft.com/detail/Praisenter/9PHHWB94W800?launch=true&amp;mode=mini">
-    <img src="{{ page.relpath }}assets/img/windows-download-icon.svg" width="200">
+    <img src="{{ page.relpath }}assets/img/windows-download-icon.svg" height="82">
 </a>
 
 For **Ubuntu**:
 
 <a href="https://snapcraft.io/praisenter">
-    <img alt="Get it from the Snap Store" src="{{ page.relpath }}assets/img/ubuntu-download-icon.svg" height="59">
+    <img alt="Get it from the Snap Store" src="{{ page.relpath }}assets/img/ubuntu-download-icon.svg" height="82">
 </a>
 
-You can manually download Praisenter as an `MSI` or `DEB` from the [project page](https://github.com/praisenter/praisenter/releases).  Installing manually is a lot more work.  If you need help, see [this article](https://praisenter.org/install).
+For **macOS**
 
-> **NOTE**: There's currently no macOS build available. However, if you're adventurous, you can clone the [repository](https://github.com/praisenter/praisenter) and build it on macOS. A native macOS build is on the roadmap.  Very little testing has been occurred on macOS so you may encounter some issues.
+<a href="https://apps.apple.com/us/app/praisenter/id6756894623?mt=12&itscg=30200&itsct=apps_box_badge&mttnsubad=6756894623" style="display: inline-block;">
+    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1769472000" alt="Download on the App Store" style="width: 246px; height: 82px; vertical-align: middle; object-fit: contain;" />
+</a>
+
+Praisenter is available on the Windows, Snap, and macOS App Stores.  Using the app store is the safest way to ensure you get an official version of Praisenter.  Praisenter can also be downloaded as an `MSI` or `DEB` from the [project site under the Releases section](https://github.com/praisenter/praisenter/releases), but these builds require more steps to install properly.  If you need help with manual install steps, see [this article](https://praisenter.org/install).
+
+> **NOTE**: Praisenter is open source, so if none of the options above work for you, you can always try building Praisenter yourself by cloning the [GitHub repo](https://github.com/praisenter/praisenter).
 
 Once installation is complete, launch Praisenter and continue to the next step.
 
